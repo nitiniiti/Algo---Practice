@@ -38,9 +38,10 @@ const primes = number => {
 
 
 let time1 = new Date().getTime();
-let result = primeNumber(50000);
+let result = primeNumber(500);
+console.log(result);
 let time2 = new Date().getTime();
-console.log("Time Taken ==", (time2 - time1) / 1000);
+// console.log("Time Taken ==", (time2 - time1) / 1000);
 
 
 let time3 = new Date().getTime();

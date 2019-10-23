@@ -12,5 +12,5 @@ function staircase(number) {
 }
 
 
-let result = staircase(10);
+let result = staircase(101);
 console.log(result);

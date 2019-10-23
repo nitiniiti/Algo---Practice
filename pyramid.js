@@ -15,5 +15,5 @@ function pyramid(number) {
     return pyramid;
 }
 
-let result = pyramid(3);
+let result = pyramid(15);
 console.log(result);
