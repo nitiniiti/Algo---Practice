@@ -18,10 +18,25 @@ function palindrome2(string) {
     return check;
 }
 
+function IntegerPalindrome(number) {
+    // return number.toString().split("").reverse().join("") == number;
+
+    let numberArray = number.toString().split("");
+
+    while (numberArray.length > 1) {
+        if (numberArray.pop() != numberArray.shift()) {
+            return false;
+        }
+    }
+    return true;
+}
+
 let result = palindrome1("aadaa");
 console.log(result);
 
 
 result = palindrome2("abacdcaba");
 console.log(result);
+
+console.log(IntegerPalindrome(-121));
 
